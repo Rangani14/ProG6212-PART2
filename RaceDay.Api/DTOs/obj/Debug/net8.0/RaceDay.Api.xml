@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RaceDay.Api</name>
+    </assembly>
+    <members>
+        <member name="M:RaceDay.Api.Controllers.AuthController.Register(RaceDay.Api.DTOs.RegisterRequest)">
+            <summary>Registers a Participant or Organiser account. Production deployments should restrict Organiser registration.</summary>
+        </member>
+        <member name="T:RaceDay.Api.Data.RaceDayContext">
+            <summary>
+            Provides database access for the RaceDay application.
+            </summary>
+        </member>
+        <member name="M:RaceDay.Api.Data.RaceDayContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{RaceDay.Api.Data.RaceDayContext})">
+            <summary>
+            Creates the database context using the configured options.
+            </summary>
+        </member>
+        <member name="P:RaceDay.Api.Data.RaceDayContext.Users">
+            <summary>Gets the users in the database.</summary>
+        </member>
+        <member name="P:RaceDay.Api.Data.RaceDayContext.Events">
+            <summary>Gets the events in the database.</summary>
+        </member>
+        <member name="P:RaceDay.Api.Data.RaceDayContext.Categories">
+            <summary>Gets the event categories in the database.</summary>
+        </member>
+        <member name="P:RaceDay.Api.Data.RaceDayContext.Routes">
+            <summary>Gets the routes associated with events.</summary>
+        </member>
+        <member name="P:RaceDay.Api.Data.RaceDayContext.Enrolments">
+            <summary>Gets participant enrolments.</summary>
+        </member>
+        <member name="P:RaceDay.Api.Data.RaceDayContext.Results">
+            <summary>Gets event results.</summary>
+        </member>
+        <member name="M:RaceDay.Api.Data.RaceDayContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>Configures database relationships and constraints.</summary>
+        </member>
+    </members>
+</doc>
