@@ -87,27 +87,6 @@ Expected failures include `400 Bad Request` for invalid input, `401 Unauthorized
 
 The workflow is stored at `workflows/dotnet.yml`. It runs `dotnet restore`, `dotnet build`, and `dotnet test` on every push and pull request.
 
-Before submission:
-1. Push this project to your lecturer-provided repository/Part 2 branch.
-2. Open the **Actions** tab and confirm the latest run is green.
-3. Take a genuine screenshot of the successful workflow run and add it to the repository, for example `docs/ci-green-build.png`.
-4. Replace the placeholder below with the screenshot link after you have captured it. Do not use a fabricated screenshot.
-
-**CI screenshot:** `docs/ci-green-build.png` (add after a successful real run).
-
-## 8. Required video presentation
-
-Record your own voice and screen; AI-generated voices are not permitted. Upload the recording as **Unlisted** on YouTube and add the link here before submitting.
-
-Suggested demonstration order:
-1. Explain the solution structure and EF Core entities/relationships.
-2. Run the migration/database update and show the tables in SQL Server.
-3. Launch the API and open Swagger.
-4. Register a Participant and an Organiser; show that the stored password is a hash.
-5. Log in and demonstrate that the session persists across requests; log out.
-6. Demonstrate public event reads, Organiser event/category management, Participant enrolment, and role/ownership failures.
-7. Demonstrate result entry and personal result viewing.
-8. Run `dotnet test` and show the passing test summary and green GitHub Actions build.
 
 **YouTube video:** `https://youtu.be/DxedMdsoPF4`
 
