@@ -109,6 +109,6 @@ Suggested demonstration order:
 7. Demonstrate result entry and personal result viewing.
 8. Run `dotnet test` and show the passing test summary and green GitHub Actions build.
 
-**YouTube video:** `ADD YOUR UNLISTED YOUTUBE URL HERE`
+**YouTube video:** `https://youtu.be/DxedMdsoPF4`
 
 #
